@@ -18,5 +18,14 @@ function divide(a, b){
     return a / b;
 }
 
+// function sum(...nums){
+//   return nums.reduce((accumulator, current) => accumulator + current, 0);
+// }
 
-module.exports = {add, subtract, multiply, divide};
+
+module.exports = {add, 
+                  subtract, 
+                  multiply, 
+                  divide, 
+                  // sum
+                };
